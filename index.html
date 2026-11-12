@@ -30,10 +30,18 @@ content="Explore my projects, skills and professional journey.">
 
 </head>
 <body>
+    <div id="loader">
+    <div class="spinner"></div>
+    <h2>Pradeep Akash</h2>
+    <p>Loading Portfolio...</p>
+</div>
 
     <header>
+        <button id="menuToggle" class="menu-toggle">
+    ☰
+</button>
         <h2>PRADEEPAKASH PORTFOLIO</h2>
-        <nav>
+        <nav id="mainNav">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
@@ -82,6 +90,21 @@ content="Explore my projects, skills and professional journey.">
 
     <section id="about">
         <!-- EDUCATION SECTION -->
+         <section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am Pradeep Akash, an Electronics and Communication
+        Engineering student interested in Embedded Systems,
+        Internet of Things, PCB Design and Full Stack Development.
+
+        I enjoy developing practical projects and learning
+        new technologies such as React.js and Python.
+
+        My goal is to build innovative solutions and start
+        my professional career in the technology industry.
+    </p>
+</section>
 <section id="education">
     <h2>My Education</h2>
 
@@ -150,6 +173,37 @@ content="Explore my projects, skills and professional journey.">
     <section id="skills">
     <h2>Technical Skills</h2>
     <p>My technical knowledge and development skills.</p>
+    <div class="skill-progress">
+
+    <div class="skill-item">
+        <p>HTML & CSS</p>
+        <div class="progress">
+            <div class="progress-bar" data-width="75%"></div>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <p>JavaScript</p>
+        <div class="progress">
+            <div class="progress-bar" data-width="60%"></div>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <p>Python</p>
+        <div class="progress">
+            <div class="progress-bar" data-width="50%"></div>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <p>React.js</p>
+        <div class="progress">
+            <div class="progress-bar" data-width="40%"></div>
+        </div>
+    </div>
+
+</div>
 
     <div class="skills-container">
 
@@ -253,9 +307,24 @@ content="Explore my projects, skills and professional journey.">
 
     <script src="script.js"></script>
     <footer>
-    <p>© 2026 Pradeep Akash | ECE Student</p>
-    <p>Designed and Developed by Pradeep Akash</p>
+    <h3>Pradeep Akash</h3>
+
+    <p>ECE Student | Embedded Systems | Web Developer</p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 Pradeep Akash. All Rights Reserved.
+    </p>
 </footer>
 <script src="script.js"></script>
+<button id="backToTop" title="Back to Top">
+    ↑
+</button>
 </body>
 </html>
