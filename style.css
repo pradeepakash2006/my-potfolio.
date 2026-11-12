@@ -575,3 +575,14 @@ footer h3 {
     color: #8b949e;
     font-size: 13px;
 }
+.project-card h4 {
+    color: #71e0c0;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.project-card ul {
+    color: #c9d1d9;
+    padding-left: 20px;
+    line-height: 1.8;
+}
