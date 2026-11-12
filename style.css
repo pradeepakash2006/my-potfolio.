@@ -106,7 +106,7 @@ section:not(#home) {
     display: flex;
     align-items: center;
     background: radial-gradient(circle at top right,
-        #123b35, #080b12 55%);
+        #0f3d36, #080b12 55%);
 }
 
 .hero-content {
@@ -585,4 +585,35 @@ footer h3 {
     color: #c9d1d9;
     padding-left: 20px;
     line-height: 1.8;
+}
+.hire-btn {
+    display: outline-block;
+    padding: 12px 28px;
+    background: #00bcd4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hire-btn:hover {
+    background: #008fa1;
+    transform: translateY(-3px);
+}
+body {
+    background: linear-gradient(
+        135deg,
+        #0d1117,
+        #101b2d,
+        #0d1117
+    );
+    background-size: 300% 300%;
+    animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
